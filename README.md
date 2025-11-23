@@ -1,4 +1,4 @@
-
+<img width="370" height="536" alt="image" src="https://github.com/user-attachments/assets/c780abcb-66ac-4598-8953-9fc695656612" />
 <h1 align="center">WhatsApp Chat Analyzer</h1>
 
 <p align="center">
@@ -57,22 +57,22 @@ npm run preview
 
 ## 📁 Project Structure
 
-<img alt="Project Structure">
+<img src="./Structure.png" width="200" alt="Project Structure">
 
 
 ---
 ### 📷 Screenshot guide 
 Website hero / landing:
-<img alt="Website hero / landing">
+<img src="./Website Landing.png" width="200" alt="Website hero / landing">
 
 File input (upload area):
-<img alt="File input (upload area)">
+<img src="./File Input.png" width="200" alt="File input (upload area)">
 
 Date selection:
-<img alt="Date selection">
+<img src="./Date Seelection.png" width="200" alt="Date selection">
 
 Output / results:
-<img alt="Output / results">
+<img src="./Output.png" width="200" alt="Output / results">
 
 ---
 ### 📄 How to Export WhatsApp Chat
