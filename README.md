@@ -1,6 +1,3 @@
-<p align="center">
-  <img src="public/favicon.ico" alt="Logo" width="64" height="64" />
-</p>
 
 <h1 align="center">WhatsApp Chat Analyzer</h1>
 
@@ -10,9 +7,9 @@
 </p>
 
 <p align="center">
-  <a href="#"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-blue.svg" /></a>
+  
   <a href="#"><img alt="Tech: React" src="https://img.shields.io/badge/tech-React%20%7C%20Vite%20%7C%20Tailwind-blueviolet" /></a>
-  <a href="#"><img alt="Status" src="https://img.shields.io/badge/status-beta-yellowgreen" /></a>
+  
 </p>
 
 ---
