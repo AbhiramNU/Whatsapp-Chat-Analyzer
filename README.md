@@ -8,7 +8,7 @@
 
 <p align="center">
   
-  <a href="#"><img alt="Tech: React" src="https://img.shields.io/badge/tech-React%20%7C%20Vite%20%7C%20Tailwind-blueviolet" /></a>
+  <a align="center" href="#"><img alt="Tech: React" src="https://img.shields.io/badge/tech-React%20%7C%20Vite%20%7C%20Tailwind-blueviolet" /></a>
   
 </p>
 
