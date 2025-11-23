@@ -1,73 +1,134 @@
-# Welcome to your Lovable project
+WhatsApp Chat Analyzer
 
-## Project info
+Upload your WhatsApp group chat export and let AI identify tasks, deadlines, decisions, and responsibilities automatically
 
-**URL**: https://lovable.dev/projects/1d81f81a-4485-41ec-9678-5470f779be46
+🚀 Features
 
-## How can I edit this code?
+Upload WhatsApp exported .txt chat files
 
-There are several ways of editing your application.
+Date‑range filtering UI
 
-**Use Lovable**
+Clean, responsive UI with Tailwind
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/1d81f81a-4485-41ec-9678-5470f779be46) and start prompting.
+Ready for optional backend/AI integration (not included)
 
-Changes made via Lovable will be committed automatically to this repo.
+No external dependencies beyond frontend libraries
 
-**Use your preferred IDE**
+🛠️ Tech Stack
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Core:
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+React (TypeScript)
 
-Follow these steps:
+Vite (fast dev server)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Tailwind CSS (styling)
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+PostCSS & Autoprefixer
 
-# Step 3: Install the necessary dependencies.
-npm i
+Optional:
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+shadcn/ui components
+
+📦 Installation & Setup
+
+Clone the repository:
+
+git clone <your-repo-url>
+cd <project-folder>
+
+Install dependencies:
+
+npm install
+
+Start development server:
+
 npm run dev
-```
 
-**Edit a file directly in GitHub**
+Build for production:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+npm run build
 
-**Use GitHub Codespaces**
+Preview production build:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+npm run preview
 
-## What technologies are used for this project?
+📁 Project Structure
 
-This project is built with:
+chat-analyzer/
+├── public/
+│   ├── favicon.ico
+│   ├── robots.txt
+│   └── placeholder.svg
+│
+├── src/
+│   ├── App.tsx           # Main application UI
+│   ├── App.css
+│   ├── components/       # Add components here
+│   ├── assets/           # Add your logos & images
+│   └── index.css         # Tailwind base imports
+│
+├── package.json
+├── tailwind.config.ts
+├── tsconfig.json
+└── vite.config.ts
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+📄 How to Export WhatsApp Chat
 
-## How can I deploy this project?
+Android
 
-Simply open [Lovable](https://lovable.dev/projects/1d81f81a-4485-41ec-9678-5470f779be46) and click on Share -> Publish.
+Open chat → tap ⋮ → More → Export Chat
 
-## Can I connect a custom domain to my Lovable project?
+Choose Without Media
 
-Yes, you can!
+Save / share the .txt file
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+iPhone
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Open chat → tap contact/group name
+
+Scroll → Export Chat
+
+Choose Without Media
+
+Save to Files / AirDrop
+
+Upload this .txt file inside the web app.
+
+🖼️ Screenshots for Documentation
+
+Paste your screenshots in the following sections when preparing project submission or demo.
+
+1️⃣ Website Home Page
+
+Add screenshot here showing the main landing UI.
+
+2️⃣ File Input Upload Area
+
+Add screenshot showing the WhatsApp .txt upload section.
+
+3️⃣ Date Range Selector
+
+Add screenshot showing date selection UI.
+
+4️⃣ Output / Processed Results
+
+Add screenshot of the output preview section.
+
+5️⃣ Additional Screenshots (Optional)
+
+Filtering results
+
+Reset function
+
+Screenshot gallery
+
+
+
+🤝 Contributing
+
+Pull requests and improvements are welcome.
+
+📜 License
+
+MIT License.
