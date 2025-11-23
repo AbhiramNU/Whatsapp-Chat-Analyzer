@@ -1,134 +1,115 @@
-WhatsApp Chat Analyzer
+<p align="center">
+  <img src="public/favicon.ico" alt="Logo" width="64" height="64" />
+</p>
 
-Upload your WhatsApp group chat export and let AI identify tasks, deadlines, decisions, and responsibilities automatically
+<h1 align="center">WhatsApp Chat Analyzer</h1>
 
-🚀 Features
+<p align="center">
+  <strong>Turn exported WhatsApp group chats into structured project-ready outputs.</strong><br/>
+  Lightweight, fast, and designed for clear documentation & demo screenshots.
+</p>
 
-Upload WhatsApp exported .txt chat files
+<p align="center">
+  <a href="#"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-blue.svg" /></a>
+  <a href="#"><img alt="Tech: React" src="https://img.shields.io/badge/tech-React%20%7C%20Vite%20%7C%20Tailwind-blueviolet" /></a>
+  <a href="#"><img alt="Status" src="https://img.shields.io/badge/status-beta-yellowgreen" /></a>
+</p>
 
-Date‑range filtering UI
+---
 
-Clean, responsive UI with Tailwind
+## ✨ What this is
 
-Ready for optional backend/AI integration (not included)
+A polished, frontend-first web application scaffold built with **React + TypeScript + Vite + Tailwind CSS**.  
+It provides a clean UI for uploading WhatsApp `.txt` chat exports, selecting a date range, and attaching screenshots that document how the tool is used. This repository contains the UI only — backend/processing logic can be added later.
 
-No external dependencies beyond frontend libraries
+---
 
-🛠️ Tech Stack
+## 🚀 Highlights
 
-Core:
+- Modern, responsive UI (mobile + desktop)
+- File upload (.txt) & multi-image screenshot gallery
+- Date-range selection for filtering
+- Export buttons for `.txt`, `.json`, and `.csv` (UI stubs)
+- Easy to customize: logo, colors, layout
+- Clean structure ideal for demos, portfolio, or student projects
 
-React (TypeScript)
+---
 
-Vite (fast dev server)
+## 🧭 Quick start
 
-Tailwind CSS (styling)
-
-PostCSS & Autoprefixer
-
-Optional:
-
-shadcn/ui components
-
-📦 Installation & Setup
-
-Clone the repository:
-
+1. Clone
+```bash
 git clone <your-repo-url>
 cd <project-folder>
-
-Install dependencies:
-
+```
+2.Install
+```
 npm install
-
-Start development server:
-
+```
+3.Start dev server
+```
 npm run dev
-
-Build for production:
-
+```
+4.Build for production
+```
 npm run build
-
-Preview production build:
-
 npm run preview
-
-📁 Project Structure
-
+```
+---
+##🗂 Project structure
 chat-analyzer/
-├── public/
-│   ├── favicon.ico
-│   ├── robots.txt
-│   └── placeholder.svg
+├─ public/
+│  ├─ favicon.ico
+│  ├─ robots.txt
+│  └─ screenshots/          # place documentation screenshots here
 │
-├── src/
-│   ├── App.tsx           # Main application UI
-│   ├── App.css
-│   ├── components/       # Add components here
-│   ├── assets/           # Add your logos & images
-│   └── index.css         # Tailwind base imports
+├─ src/
+│  ├─ App.tsx               # main UI, hero, upload & gallery
+│  ├─ components/           # small UI pieces (Footer, Header, Upload)
+│  ├─ assets/               # logos & images for bundling
+│  └─ index.css             # Tailwind imports
 │
-├── package.json
-├── tailwind.config.ts
-├── tsconfig.json
-└── vite.config.ts
+├─ package.json
+├─ tailwind.config.ts
+├─ postcss.config.js
+├─ tsconfig.json
+└─ vite.config.ts
+---
+### 📷 Screenshot guide (for documentation / portfolio)
+Website hero / landing:
+<img alt="Website hero / landing">
 
-📄 How to Export WhatsApp Chat
+File input (upload area):
+<img alt="File input (upload area)">
 
-Android
+Date selection:
+<img alt="Date selection">
 
-Open chat → tap ⋮ → More → Export Chat
+Output / results:
+<img alt="Output / results">
 
-Choose Without Media
+---
+### 📄 How to Export WhatsApp Chat
 
-Save / share the .txt file
-
-iPhone
-
-Open chat → tap contact/group name
-
-Scroll → Export Chat
-
-Choose Without Media
-
-Save to Files / AirDrop
-
-Upload this .txt file inside the web app.
-
-🖼️ Screenshots for Documentation
-
-Paste your screenshots in the following sections when preparing project submission or demo.
-
-1️⃣ Website Home Page
-
-Add screenshot here showing the main landing UI.
-
-2️⃣ File Input Upload Area
-
-Add screenshot showing the WhatsApp .txt upload section.
-
-3️⃣ Date Range Selector
-
-Add screenshot showing date selection UI.
-
-4️⃣ Output / Processed Results
-
-Add screenshot of the output preview section.
-
-5️⃣ Additional Screenshots (Optional)
-
-Filtering results
-
-Reset function
-
-Screenshot gallery
+### Android
+1. Open the chat → tap ⋮ → **More** → **Export Chat**
+2. Choose **Without Media**
+3. Save the exported `.txt` file
 
 
+### iPhone
+1. Open the chat → tap contact/group name
+2. Scroll down → **Export Chat**
+3. Choose **Without Media**
+4. Save to Files / AirDrop
 
-🤝 Contributing
 
-Pull requests and improvements are welcome.
+Upload the exported `.txt` file into the app.
 
-📜 License
+## 🤝 Contributing
+
+PRs, fixes, and improvements are welcome.
+
+## 📜 License
 
 MIT License.
