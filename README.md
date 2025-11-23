@@ -159,25 +159,7 @@ chat-analyzer/
 └── vite.config.ts
 ```
 
-chat-analyzer/
-├── public/
-│   ├── favicon.ico
-│   ├── robots.txt
-│   └── screenshots/          # documentation images
-│
-├── src/
-│   ├── App.tsx               # main UI file
-│   ├── App.css
-│   ├── components/           # reusable UI components
-│   ├── assets/               # logos, icons
-│   └── index.css             # Tailwind imports
-│
-├── package.json
-├── tailwind.config.ts
-├── tsconfig.json
-└── vite.config.ts
 
-````
 
 ---
 
