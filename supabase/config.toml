@@ -1,0 +1,4 @@
+project_id = "farudgbigrnutjpgajod"
+
+[functions.analyze-chat]
+verify_jwt = false
