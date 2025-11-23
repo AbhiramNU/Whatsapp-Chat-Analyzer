@@ -139,26 +139,7 @@ npm run preview
 
 ## 📁 Project Structure
 
-```plaintext
-chat-analyzer/
-├── public/
-│   ├── favicon.ico
-│   ├── robots.txt
-│   └── screenshots/          # place documentation screenshots here
-│
-├── src/
-│   ├── App.tsx               # main UI, hero, upload & gallery
-│   ├── components/           # small UI pieces (Footer, Header, Upload)
-│   ├── assets/               # logos & images for bundling
-│   └── index.css             # Tailwind imports
-│
-├── package.json
-├── tailwind.config.ts
-├── postcss.config.js
-├── tsconfig.json
-└── vite.config.ts
-```
-
+<img alt="Project Structure">
 
 
 ---
