@@ -5,6 +5,7 @@
   <strong>Turn exported WhatsApp group chats into structured project-ready outputs.</strong><br/>
   Lightweight, fast, and designed for clear documentation & demo screenshots.
 </p>
+<p><b>Deployed Link:</b>https://whatsapp-chat-analyzer-kohl.vercel.app/</p>
 
 <p align="center">
   
